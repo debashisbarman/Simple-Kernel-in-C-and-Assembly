@@ -125,7 +125,7 @@ SECTIONS
 
 That's it. All done.
 
-##Building the kernel
+## Building the kernel
 We will now create object files from <code>kernel.asm</code> and <code>kernel.c</code> and then link it using our linker script.
 
 <pre>
@@ -144,7 +144,7 @@ Now the linking part,
 ld -m elf_i386 -T link.ld -o kernel kasm.o kc.o
 </pre>
 
-##Now run your kernel
+## Now run your kernel
 We will now run the kernel on the <code>qemu</code> emulator.
 
 <pre>
